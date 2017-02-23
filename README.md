@@ -32,7 +32,13 @@ ___
 
 ###Setup
 
+If you manually added the files to your project, or CocoaPods with frameworks then:  
 Add `#import "SlideMenuController.h"` in your file
+
+If you used CocoaPods with Frameworks, then use the Frameworks import:  
+Add `@import SlideMenuControllerOC;` or,  
+Add `#import "SlideMenuControllerOC/SlideMenuController.h"`
+
 
 In your app delegate:
 
